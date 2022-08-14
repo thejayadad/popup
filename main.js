@@ -1,8 +1,8 @@
 
 
-const open = document.getElementById("open");
-const close = document.getElementById("close");
-const container = document.getElementById("container");
+let open = document.getElementById("open");
+let close = document.getElementById("close");
+let container = document.getElementById("container");
 
 open.addEventListener("click", () => {
     container.classList.add("active");
@@ -10,4 +10,4 @@ open.addEventListener("click", () => {
 
 close.addEventListener("click", () => {
     container.classList.remove("active");
-});
+})
